@@ -6,7 +6,7 @@
  */
 
 // Input
-const colour = prompt("Please choose a sweater colour from the available choices: Blue, Black, Red, White.") || "No colour entered!";
+const colour: string = prompt("Please choose a sweater colour from the available choices: Blue, Black, Red, White.") || "No colour entered!";
 
 // Output
 if (colour == "Black" || colour == "White") {
